@@ -18,5 +18,10 @@ gem 'jquery-rails'
 group :test, :development do
   gem 'minitest-rails'
   gem 'minitest-rails-capybara'
+  gem 'guard'
+  gem 'guard-spork'
+  gem 'guard-rails'
+  gem 'guard-minitest'
+  gem 'rb-fsevent', '~> 0.9.1'
 end
 
